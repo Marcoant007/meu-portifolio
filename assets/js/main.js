@@ -1,9 +1,3 @@
-/**
-* Template Name: iPortfolio - v2.0.1
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 !(function($) {
   "use strict";
 
@@ -20,7 +14,6 @@
     });
   }
 
-  // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .scrollto', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       e.preventDefault();
@@ -47,7 +40,6 @@
     }
   });
 
-  // Activate smooth scroll on page load with hash links in the url
   $(document).ready(function() {
     if (window.location.hash) {
       var initial_nav = window.location.hash;
@@ -170,7 +162,6 @@
     }
   });
 
-  // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -178,7 +169,6 @@
     items: 1
   });
 
-  // Init AOS
   function aos_init() {
     AOS.init({
       duration: 1000,
