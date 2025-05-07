@@ -1056,6 +1056,21 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 
+.portfolio-wrap {
+    border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.portfolio-wrap img {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+
 .portfolio-details {
     padding-top: 40px;
 }
