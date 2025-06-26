@@ -1058,7 +1058,7 @@ section {
 
 .portfolio-wrap {
     border-radius: 8px;
-    background-color: #fff;
+    /* background-color: #fff; */
     overflow: hidden;
 }
 
